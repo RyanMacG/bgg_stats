@@ -9,6 +9,9 @@ group :development, :test do
   gem 'pry-debugger'
   gem 'rspec-rails', '2.13.1'
   gem 'guard-rspec', '2.5.0'
+  gem 'spork-rails', '4.0.0'
+  gem 'guard-spork', '1.5.0'
+  gem 'childprocess'
 end
 
 group :test do
