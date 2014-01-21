@@ -3,10 +3,11 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 gem 'pg', '0.15.1'
+gem 'bootstrap-sass'
 
 group :development, :test do
   gem 'pry'
-  gem 'pry-debugger'
+  gem 'pry-nav'
   gem 'rspec-rails', '2.13.1'
   gem 'guard-rspec', '2.5.0'
   gem 'spork-rails', '4.0.0'
