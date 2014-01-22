@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.2'
 gem 'pg', '0.15.1'
 gem 'bootstrap-sass'
+gem 'bcrypt-ruby'
 
 group :development, :test do
   gem 'pry'
