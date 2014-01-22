@@ -17,5 +17,8 @@ All of the constraints come from the [Constraints](http://constraints.co/) proje
 ---
 
 ###Possible
-- [No hover states](constraints.co/WD1-10)
+
+###Failed/removed
+- [No hover states](http://constraints.co/WD1-10)
     - I'd like a flat design if possible but if it looks bad and isn't clear I'll drop it in a heartbeat
+    - [blog regarding this]()
