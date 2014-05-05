@@ -103,6 +103,7 @@ GEM
     multi_json (1.8.2)
     nokogiri (1.6.1)
       mini_portile (~> 0.5.0)
+    oj (2.8.1)
     pg (0.15.1)
     polyglot (0.3.3)
     pry (0.9.12.4)
@@ -167,6 +168,8 @@ GEM
       multi_json (~> 1.0)
       rubyzip (< 1.0.0)
       websocket (~> 1.0.4)
+    shoulda-matchers (2.5.0)
+      activesupport (>= 3.0.0)
     slop (3.4.7)
     spork (1.0.0rc4)
     spork-rails (4.0.0)
@@ -215,6 +218,7 @@ DEPENDENCIES
   haml-rails
   jbuilder (= 1.0.2)
   jquery-rails (= 3.0.4)
+  oj
   pg (= 0.15.1)
   pry
   pry-nav
@@ -224,6 +228,7 @@ DEPENDENCIES
   sass-rails (= 4.0.1)
   sdoc (= 0.3.20)
   selenium-webdriver (= 2.35.1)
+  shoulda-matchers
   spork-rails (= 4.0.0)
   turbolinks (= 1.1.1)
   uglifier (= 2.1.1)
