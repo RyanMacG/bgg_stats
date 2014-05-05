@@ -6,6 +6,12 @@ BggStats::Application.routes.draw do
   match '/signup',  to: 'users#new',          via: 'get'
   match 'signin',   to: 'sessions#new',       via: 'get'
   match 'signout',  to: 'sessions#destroy',   via: 'delete'
+
+  scope module: :api, defaults: { format: 'json' } do
+    namespace :v1 do
+      resources :users, only: [:show]
+    end
+  end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
