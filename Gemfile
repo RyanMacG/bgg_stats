@@ -1,10 +1,12 @@
 source 'https://rubygems.org'
+ruby "2.1.0"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 gem 'pg', '0.15.1'
 gem 'bootstrap-sass'
 gem 'bcrypt-ruby'
+gem 'oj'
 
 group :development, :test do
   gem 'pry'
@@ -21,6 +23,7 @@ group :test do
   gem 'capybara', '2.1.0'
   gem 'growl'
   gem 'factory_girl_rails', '4.2.1'
+  gem 'shoulda-matchers'
 end
 
 gem 'sass-rails', '4.0.1'
